@@ -1,0 +1,55 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+   <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="es.rpallas.llibre2014.AboutFragment" >
+
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:id="@+id/about_image"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/furtaperas_rpallas" />
+
+        <TextView
+            android:id="@+id/about_image_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/about_image"
+            android:gravity="center_horizontal"
+            android:paddingTop="2dp"
+            android:text="@string/autor_de_la_foto_ricardo_pall_s"
+            android:textColor="@color/app_blue"
+            android:textSize="12sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/about_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/about_image_title"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="@string/about_full_text" />
+
+        <TextView
+            android:id="@+id/about_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:layout_below="@id/about_text"
+            android:text="@string/email"
+            android:textColor="@color/app_blue"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+</ScrollView>

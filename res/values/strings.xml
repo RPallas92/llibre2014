@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Llibre 2014</string>
+    <string name="title_portada">Fiestas de Graus</string>
+    <string name="title_dia12">Viernes 12</string>
+    <string name="title_dia13">Sábado 13</string>
+    <string name="title_dia14">Domingo 14</string>
+    <string name="title_dia15">Lunes 15</string>
+    <string name="title_about">Información</string>
+    <string name="about_fragment_title">Hello blank fragment</string>
+    <string name="fiestas_de_graus_2014">Fiestas de Graus 2014</string>
+    <string name="autor_de_la_foto_ricardo_pall_s">Autor de la foto: Ricardo Pallás</string>
+    <string name="about_full_text">Las fiestas de Graus tienen una singular relevancia, tanto que las llevaron a ser declaradas de Interés Turístico Nacional ya en 1973. Durante los días 12 al 15 de septiembre, y en honor al Santo Cristo y San Vicente Ferrer, se representan las tradiciones más arraigadas del lugar, como los dances, la llega, las Albadas y la Mojiganga. Las Fiestas dan comienzo a las 12 del día 12, tal y como reza la canción, con el repique de campanas, al que sigue el desfile de carrozas. Esa misma tarde, en el Puente de Abajo, se espera a los gaiteros que vienen a tocar este instrumento tan presente en las fiestas. Se continúa con el canto de las primeras Albadas en la casa donde se hospedó San Vicente Ferrer y en la Capilla del Santo Cristo.</string>
+    <string name="email">droidrpr@gmail.com</string>
+    <string name="aceptar">Aceptar</string>
+
+</resources>
